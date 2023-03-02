@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 
 import 'dashboard.dart';
 
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -18,10 +19,7 @@ int pageIndex = 0;
   
 List<Widget> pages = [
       DashboardApp(),
-  //  TransectionPage(),
-  //  TransectionPage(),
-  //  TransectionPage(),
-  //  TransectionPage(),
+    
   ];
 
 
